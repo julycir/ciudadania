@@ -1,18 +1,59 @@
 body {
-	padding: 30px 30px 30px 30px;
+	padding: 50px 50px 50px 50px;
+	font-family: 'Manrope', sans-serif;
+}
 
+a:link, a:visited, a:active {
+    color: black;
+}
+
+a:hover {
+	background-color: #FF0000;
+	border-radius: 5px;
 }
 
 .header {
-
+  border: 3px solid #3CB371;
+  background-color: #3CB371;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
 
-.lista {
-	list-style-type:none;
+.logo {
+	border-radius: 50px;
+	cursor: help;
+}
+
+.navbar {
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.nav-enlace {
+	text-decoration: none;
+	padding: 5px 5px 5px 5px;
+}
+
+footer {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	display: block;
+	margin-bottom: -50px;
 }
 
 .content {
 
+}
+
+.details {
+	text-align: center;
+}
+
+.details {
+	margin-top: 10px;
 }
 
 .row {
@@ -20,6 +61,7 @@ body {
 }
 
 .first-row {
+	margin-top: 30px;
 	
 }
 
@@ -29,9 +71,26 @@ body {
 
 .article {
 	flex: 1;
-	padding: 30px 30px 30px 30px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+}
+
+.article:last-child {
+	margin-right: 0;
+}
+
+.article h1 {
+	text-align: center;
 }
 
 .article img {
 	width: 100%;
+}
+
+.post {
+	margin: 100px 100px 100px 100px;
+}
+
+.cafecito {
+	text-decoration: none;
 }
